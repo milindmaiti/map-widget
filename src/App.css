@@ -1,0 +1,78 @@
+.open-map-button {
+  position: fixed;
+  top: 115px;
+  right: 12px;
+  padding: 5px 10px;
+  background-color: #E0DED8;
+  color: black;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  /* border-radius: 40%; */
+  cursor: pointer;
+  z-index: 500;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #E0DED8;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 500;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.open-map-button:hover {
+  background-color: #FF3E24;
+}
+
+.close-button:hover {
+  background-color: #FF3E24;
+}
+
+.full {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.react-chatbot-kit-chat-container {
+  right: 500px;
+}
+
+
+/* PopupStyles.css */
+/* .map-popup .leaflet-popup-content-wrapper { */
+/*   background-color: lightblue; */
+/*   /* Change this to your desired background color */ */
+/*   color: black; */
+/*   /* Change this to your desired text color */ */
+/* } */
+
+/* .leaflet-popup-tip { */
+/*   background: lightblue; */
+/*   /* Change this to match the popup background color */
+*/
+/* } */
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
